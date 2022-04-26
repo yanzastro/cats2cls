@@ -7,12 +7,12 @@ Measure shear power spectra in harmonic space from shear catalogues
 NaMaster, yaml, astropy
 
 # Usage
-Firstly, call 'make_shearmap.py' with
+Firstly, call `make_shearmap.py` with
 
-'python make_shearmap.py shearmap_config.yaml'
+`python make_shearmap.py shearmap_config.yaml`
 
 to generate shearmap in healpix format;
 
-Then, call 'shear_ps_namaster.py' with
+Then, call `shear_ps_namaster.py` with
 
-'python shear_ps_namaster.py shearps_config.yaml'
+`python shear_ps_namaster.py shearps_config.yaml`
