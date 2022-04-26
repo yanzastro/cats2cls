@@ -1,0 +1,23 @@
+shear_catalogs:
+- /path/to/catalog.fits
+shear_columns:
+  ra: ra
+  dec: dec
+  e1: e1
+  e2: e2
+  w: w
+  z: z
+selection:
+- !!python/tuple
+  - w
+  - gt
+  - 0.0
+
+shear_output_filenames:
+  triplet: /path/to/output/triplet_C.fits
+  singlet_mask: /path/to/output/singlet_mask_C.fits
+  doublet_mask: /path/to/output/doublet_mask_C.fits
+  doublet_weight: /path/to/output/doublet_weight_C.fits
+
+Nside: 4096
+label: output_label
