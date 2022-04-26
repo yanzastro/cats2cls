@@ -1,0 +1,12 @@
+shear_healpix_path: /path/to/shearmap/
+mask_file: /path/to/shearmask/mask.fits
+Nside: 4096
+
+binning:
+    bin_edge_low: 20
+    bin_edge_high: 12288
+    bin_number: 15
+    
+output:
+    outpath: /path/to/outputps/
+    outlabel: label
